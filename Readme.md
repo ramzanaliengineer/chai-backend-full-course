@@ -1,2 +1,2 @@
-Chai or code 
-this is a backend code using to create youtube channel
+# chai our code 
+this is a backend series in youtube channel
