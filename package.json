@@ -1,9 +1,12 @@
 {
   "name": "chai-backend-full-code",
   "version": "1.0.0",
-  "description": "A backend code at channel - youtube",
+  "description": "Backend code from YouTube channel",
   "keywords": [
-    "backend"
+    "backend",
+    "nodejs",
+    "express",
+    "mongodb"
   ],
   "homepage": "https://github.com/ramzanaliengineer/chai-backend-full-course#readme",
   "bugs": {
@@ -16,12 +19,18 @@
   "license": "ISC",
   "author": "Hafiz Ramzan Ali",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^8.18.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.14",
-    "prettier": "^3.8.3"
+    "prettier": "^3.6.2"
   }
 }
